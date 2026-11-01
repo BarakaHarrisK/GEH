@@ -1,0 +1,1253 @@
+{
+  "root_uuid": "dbf92cbf-32bf-5e9a-b8d0-df026fef6faa",
+  "parts": [
+    {
+      "reference": "U1",
+      "value": "ATmega328P-P (DIP-28)",
+      "library": "MCU_Microchip_ATmega",
+      "symbol": "ATmega328P-P",
+      "footprint": "Package_DIP:DIP-28_W7.62mm",
+      "uuid": "062e89dc-203e-5890-9d36-92bc0ddd8fd5"
+    },
+    {
+      "reference": "R1",
+      "value": "10k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "cd7beb50-b674-5a39-a9f1-f4909ba139ff"
+    },
+    {
+      "reference": "C1",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "9cb93c34-1bfe-5ca7-9d94-7d783b638af3"
+    },
+    {
+      "reference": "C2",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "59410632-6961-57f6-a23f-87b332b7b5f0"
+    },
+    {
+      "reference": "C3",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "a5e6c016-2704-5a51-8d02-e3ffca635fdb"
+    },
+    {
+      "reference": "J1",
+      "value": "AVR ISP",
+      "library": "Connector_Generic",
+      "symbol": "Conn_02x03_Odd_Even",
+      "footprint": "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical",
+      "uuid": "369bc4cf-fcdf-53f2-b02b-2441ea3e8871"
+    },
+    {
+      "reference": "J2",
+      "value": "BUS: mains-only 5 V, GND, SDA, SCL",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x04",
+      "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "uuid": "b2760030-2af1-5b90-9f82-48702ea96a8d"
+    },
+    {
+      "reference": "R2",
+      "value": "4.7k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "dba0a0d2-84df-5800-b9c7-f85cbbc62c74"
+    },
+    {
+      "reference": "R3",
+      "value": "4.7k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "91d1631d-a5df-58dc-b0cb-b13444974283"
+    },
+    {
+      "reference": "J3",
+      "value": "4x4 passive keypad",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x08",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical",
+      "uuid": "7d161812-7e0a-5454-83cd-83806c4141a6"
+    },
+    {
+      "reference": "J4",
+      "value": "LCD1602 5V 20mA BACKLIGHT",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x16",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical",
+      "uuid": "53da22b4-ef60-5f61-ac95-075491ee97fa"
+    },
+    {
+      "reference": "J5",
+      "value": "GSM INTERFACE TO PENDING CIRCUIT",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x04",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "uuid": "56bbbe16-fff2-5e07-a442-63d6c1407567"
+    },
+    {
+      "reference": "U2",
+      "value": "SN74LVC1T45DBVR TX",
+      "library": "Logic_LevelTranslator",
+      "symbol": "SN74LVC1T45DBV",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "uuid": "13d5374a-2b53-5051-8c42-dfa0e4626603"
+    },
+    {
+      "reference": "U3",
+      "value": "SN74LVC1T45DBVR RX",
+      "library": "Logic_LevelTranslator",
+      "symbol": "SN74LVC1T45DBV",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "uuid": "1726da61-b172-5ce0-9221-a1b1efcde05d"
+    },
+    {
+      "reference": "U4",
+      "value": "TLV75528PDBVR",
+      "library": "Regulator_Linear",
+      "symbol": "TLV75528PDBV",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "uuid": "85241dad-03f4-51f1-8125-36e20483332a"
+    },
+    {
+      "reference": "C4",
+      "value": "1u",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "72f96b0d-7b87-50e6-860b-85e6b07d0ba2"
+    },
+    {
+      "reference": "C5",
+      "value": "1u",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "ba3d49f3-97d7-5238-b81b-6a6f42ea36ed"
+    },
+    {
+      "reference": "C6",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "cd0db046-5408-5561-adf6-e641fd70d9b5"
+    },
+    {
+      "reference": "C7",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "968cedf3-965f-5c3c-a9ac-3ea2ed0a9367"
+    },
+    {
+      "reference": "C8",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "50344124-ddee-5440-aee5-19dc450b3a54"
+    },
+    {
+      "reference": "C9",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "3b5d291a-0eae-5df2-9c52-6cc9db5a5fef"
+    },
+    {
+      "reference": "J6",
+      "value": "SIM800L HARNESS (not module footprint)",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x05",
+      "footprint": "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical",
+      "uuid": "17d533e3-0078-59bd-b245-17ca5390a3ff"
+    },
+    {
+      "reference": "R4",
+      "value": "10k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "11633918-b8ea-57b6-9e5d-db7bd62f8159"
+    },
+    {
+      "reference": "R5",
+      "value": "100k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "d5b6f6b9-1d60-5e62-98dd-accd2fed03ff"
+    },
+    {
+      "reference": "Q1",
+      "value": "MMBT3904",
+      "library": "Transistor_BJT",
+      "symbol": "MMBT3904",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "uuid": "839c5f96-98a4-5a38-9e50-65e7ddff5739"
+    },
+    {
+      "reference": "U5",
+      "value": "LT1764AET#PBF 3A LDO",
+      "library": "Backup",
+      "symbol": "LT1764AET",
+      "footprint": "SmartMeter:LT1764A_TO2205_EnhancedPads",
+      "uuid": "34dc62f1-82b6-5591-bb98-903a24232938"
+    },
+    {
+      "reference": "R6",
+      "value": "280R 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "05451813-4677-5c06-a3a9-d7c26fe65004"
+    },
+    {
+      "reference": "R7",
+      "value": "121R 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "41fa5946-8365-53de-a364-6cfe8455dd0f"
+    },
+    {
+      "reference": "C10",
+      "value": "10u 25V X7R",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "uuid": "a998b05f-0122-5123-86e4-d73c0e2f72b6"
+    },
+    {
+      "reference": "C12",
+      "value": "100n 25V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "efc404d7-09b3-571b-8fd6-97578006d3e4"
+    },
+    {
+      "reference": "C13",
+      "value": "22u 25V X7R",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "uuid": "c4728c87-8fd9-5abe-8aaf-d1bbc39815f5"
+    },
+    {
+      "reference": "C14",
+      "value": "22u 25V X7R",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "uuid": "d9ffe800-aef2-505f-8e62-055ff2d4483f"
+    },
+    {
+      "reference": "C15",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "f15147bd-74ba-5d76-bb27-9abf6718a3c8"
+    },
+    {
+      "reference": "BT1",
+      "value": "18650 3.7V 2600mAh cell 1",
+      "library": "Device",
+      "symbol": "Battery_Cell",
+      "footprint": "Battery:BatteryHolder_Keystone_1042_1x18650",
+      "uuid": "96cc7317-a140-54a9-9da7-0c6d57ac070b"
+    },
+    {
+      "reference": "BT2",
+      "value": "18650 3.7V 2600mAh cell 2",
+      "library": "Device",
+      "symbol": "Battery_Cell",
+      "footprint": "Battery:BatteryHolder_Keystone_1042_1x18650",
+      "uuid": "1201bbfc-6e86-537d-b8aa-363097024e6e"
+    },
+    {
+      "reference": "F1",
+      "value": "0451003.MRL 3A 125V",
+      "library": "Device",
+      "symbol": "Fuse",
+      "footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "uuid": "bcf9e978-6fb7-59d6-9558-fc01b3026873"
+    },
+    {
+      "reference": "J7",
+      "value": "ISOLATED 12 V INPUT",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x02",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal",
+      "uuid": "115899ab-e680-5fb5-9b6b-ae14bff2eca1"
+    },
+    {
+      "reference": "F2",
+      "value": "0451003.MRL 3A 125V",
+      "library": "Device",
+      "symbol": "Fuse",
+      "footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+      "uuid": "735e9958-64b3-5120-87e4-c53b519823a1"
+    },
+    {
+      "reference": "J10",
+      "value": "CELL TEMPERATURE SENSOR",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x02",
+      "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",
+      "uuid": "d88521e9-b0a1-5859-9d88-f023164cf51e"
+    },
+    {
+      "reference": "U6",
+      "value": "TPS62130RGTR - 5 V",
+      "library": "Regulator_Switching",
+      "symbol": "TPS62130",
+      "footprint": "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm",
+      "uuid": "3b465270-c13f-52af-bce9-29e94be8af99"
+    },
+    {
+      "reference": "L2",
+      "value": "XAL6030-222MEB 2.2uH",
+      "library": "Device",
+      "symbol": "L",
+      "footprint": "Inductor_SMD:L_Coilcraft_XAL6030-XXX",
+      "uuid": "4176ad4d-3952-504b-8691-dc1dfe967aa4"
+    },
+    {
+      "reference": "R9",
+      "value": "523k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "f5c4c2b1-963a-5de3-b229-ddd6d6d500a1"
+    },
+    {
+      "reference": "R10",
+      "value": "100k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "50483d33-58e8-5d54-8ef9-f88ae7a04e75"
+    },
+    {
+      "reference": "C16",
+      "value": "10u 25V X7R",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "uuid": "8350ca08-487a-54f9-b7d3-acb1794ecac2"
+    },
+    {
+      "reference": "C17",
+      "value": "100n 25V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "e4347d72-dcdf-5267-9d79-00bde6648e4a"
+    },
+    {
+      "reference": "C18",
+      "value": "3.3n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "e20d0b5f-c758-5c23-bb14-c2d43da584fc"
+    },
+    {
+      "reference": "C19",
+      "value": "22u 25V X7R",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "uuid": "c49b956d-ed2c-5439-9b6c-3b3b1ef04c5d"
+    },
+    {
+      "reference": "R11",
+      "value": "100k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "c6245a2d-5e93-5099-b258-3624a4ec4960"
+    },
+    {
+      "reference": "U7",
+      "value": "TPS3700DDCR",
+      "library": "Backup",
+      "symbol": "TPS3700DDC",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "uuid": "19b01336-26e3-54d6-a89c-c2154a967fc9"
+    },
+    {
+      "reference": "R12",
+      "value": "165k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "f12b86b0-3fc8-5738-8641-31dacadeb3de"
+    },
+    {
+      "reference": "R13",
+      "value": "10k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "b5a2ac0e-22b7-56b2-b383-0ff57c8a2799"
+    },
+    {
+      "reference": "R14",
+      "value": "100k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "ef22ff9c-b565-5cd6-82c9-716ffc3aad31"
+    },
+    {
+      "reference": "C20",
+      "value": "100n 25V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "9012888e-02f6-59ad-aa69-4e4bc713012b"
+    },
+    {
+      "reference": "R55",
+      "value": "1.50M 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "4884c5bc-f2a4-59d5-bbfe-7a54e1b9eccf"
+    },
+    {
+      "reference": "U8",
+      "value": "TCA9517ADGKR",
+      "library": "Logic_LevelTranslator",
+      "symbol": "TCA9517ADGK",
+      "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+      "uuid": "d8d70ce6-72f3-51d6-a4b3-4a666b3f55c4"
+    },
+    {
+      "reference": "R15",
+      "value": "4k7 provisional",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "7b0f9a77-4d03-53cb-ac4e-9f014e429bba"
+    },
+    {
+      "reference": "R16",
+      "value": "4k7 provisional",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "879225c5-5aeb-52b6-911d-2c11d6da9aaf"
+    },
+    {
+      "reference": "R17",
+      "value": "10k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "3af89acb-9e76-5455-be36-05a1c5d56ccf"
+    },
+    {
+      "reference": "R18",
+      "value": "100k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "49153d16-b2b0-5e04-bf6c-f8ec082404d3"
+    },
+    {
+      "reference": "C21",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "1a562002-f451-5886-b62d-808bab0707f0"
+    },
+    {
+      "reference": "C22",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "3613d2d4-52b7-53fd-999d-a9c0c87fe1e2"
+    },
+    {
+      "reference": "Q2",
+      "value": "MMBT3904 adapter detect",
+      "library": "Transistor_BJT",
+      "symbol": "MMBT3904",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "uuid": "0b16b30e-fed9-54d7-91bb-c696d590bad1"
+    },
+    {
+      "reference": "R19",
+      "value": "100k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "e170a5e7-e3ff-5c26-b42a-49a5322ff847"
+    },
+    {
+      "reference": "R20",
+      "value": "100k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "bfc1bbff-0eed-5054-b148-f86065636923"
+    },
+    {
+      "reference": "R21",
+      "value": "10k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "f58b5d3e-fc38-59b4-8c29-20ffdcacdbd5"
+    },
+    {
+      "reference": "Q11",
+      "value": "IRFR5305TRPBF",
+      "library": "Transistor_FET",
+      "symbol": "Q_PMOS_GDS",
+      "footprint": "Package_TO_SOT_SMD:TO-252-2",
+      "uuid": "dc50733b-8791-566d-8851-8c48899cc77a"
+    },
+    {
+      "reference": "R56",
+      "value": "100k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "f300244b-d5d4-56f2-898e-467e19c9656d"
+    },
+    {
+      "reference": "D6",
+      "value": "BZT52C12-E3-08",
+      "library": "Device",
+      "symbol": "D_Zener",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "uuid": "00aa5fd9-82ae-5889-9a54-c8a5e3765b6c"
+    },
+    {
+      "reference": "U9",
+      "value": "BQ24133RGYR",
+      "library": "Battery_Management",
+      "symbol": "BQ24133RGY",
+      "footprint": "Package_DFN_QFN:Texas_RGY_R-PVQFN-N24_EP2.05x3.1mm",
+      "uuid": "876bb442-afa9-5ecc-a181-50aecec0d43a"
+    },
+    {
+      "reference": "Q3",
+      "value": "IRLR7843TRPBF",
+      "library": "Transistor_FET",
+      "symbol": "Q_NMOS_GDS",
+      "footprint": "Package_TO_SOT_SMD:TO-252-2",
+      "uuid": "303ba153-513e-5180-a250-bce188c8bd17"
+    },
+    {
+      "reference": "Q4",
+      "value": "IRLR7843TRPBF",
+      "library": "Transistor_FET",
+      "symbol": "Q_NMOS_GDS",
+      "footprint": "Package_TO_SOT_SMD:TO-252-2",
+      "uuid": "a13ed16e-8a43-5398-b6cb-f36e2c6d8455"
+    },
+    {
+      "reference": "Q5",
+      "value": "IRFR5305TRPBF",
+      "library": "Transistor_FET",
+      "symbol": "Q_PMOS_GDS",
+      "footprint": "Package_TO_SOT_SMD:TO-252-2",
+      "uuid": "c2905f76-0880-537d-8eb3-e2e33f736852"
+    },
+    {
+      "reference": "R22",
+      "value": "4.02k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "e92252e2-d0c3-5240-a53b-508814e6a5ea"
+    },
+    {
+      "reference": "R23",
+      "value": "4.02k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "94255ab2-d885-5753-a076-e5e3c171b2a6"
+    },
+    {
+      "reference": "R24",
+      "value": "1k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "8efe4f23-e65b-54ae-b5bb-834c55acdb8d"
+    },
+    {
+      "reference": "R25",
+      "value": "20m 1% 1W",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "uuid": "26f400b6-f5a7-5696-9410-15607c0c6769"
+    },
+    {
+      "reference": "R26",
+      "value": "10R",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "fcf5ac18-5fb8-5d73-95ea-973c1de1e25c"
+    },
+    {
+      "reference": "D2",
+      "value": "BAT46W-E3-08",
+      "library": "Device",
+      "symbol": "D_Schottky",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "uuid": "2c70b2fd-d5ca-57f9-a6d3-bdd9db520fc8"
+    },
+    {
+      "reference": "D3",
+      "value": "BAT46W-E3-08",
+      "library": "Device",
+      "symbol": "D_Schottky",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "uuid": "8edcd079-3b87-5528-babe-8b50f15d37b7"
+    },
+    {
+      "reference": "L3",
+      "value": "XAL6030-332MEB 3.3uH",
+      "library": "Device",
+      "symbol": "L",
+      "footprint": "Inductor_SMD:L_Coilcraft_XAL6030-XXX",
+      "uuid": "ffaf7a4c-efd2-5b9b-8832-8dd7ddb63234"
+    },
+    {
+      "reference": "R27",
+      "value": "20m 1% 1W",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "uuid": "19541fd2-a1bd-5330-b8ea-e03145b3826d"
+    },
+    {
+      "reference": "C23",
+      "value": "47n 25V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "3adc423e-65a6-58a2-9879-f421b255a498"
+    },
+    {
+      "reference": "C24",
+      "value": "1u 25V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "e88f7e38-28ba-5dc0-b375-91fc4515ecf4"
+    },
+    {
+      "reference": "C25",
+      "value": "1u 25V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "c1102376-5f6b-5d37-b5db-2bf3c25e6023"
+    },
+    {
+      "reference": "C26",
+      "value": "1u 10V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "1abd1c03-2251-5cf6-8173-521c4c419d32"
+    },
+    {
+      "reference": "C27",
+      "value": "10u 25V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "uuid": "c06cf406-a28d-57ca-89fb-b46fd1f80ddf"
+    },
+    {
+      "reference": "C28",
+      "value": "10u 25V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "uuid": "fb3a2ead-4e97-5bb0-98cc-e93bfe87c98c"
+    },
+    {
+      "reference": "C29",
+      "value": "10u 25V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "uuid": "61cfd701-d292-5c81-9937-2362bc95b450"
+    },
+    {
+      "reference": "C30",
+      "value": "100n 25V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "9323ce63-79a4-5c5f-a133-7086f081015a"
+    },
+    {
+      "reference": "C31",
+      "value": "100n 25V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "1739e282-fced-59a5-9857-e51fdf14f620"
+    },
+    {
+      "reference": "C32",
+      "value": "100n 25V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "5936ef0f-976e-5ba1-bae8-6b8d9d58ae4b"
+    },
+    {
+      "reference": "R28",
+      "value": "25.5k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "6a165d73-af51-5915-9696-7f691fdaf96e"
+    },
+    {
+      "reference": "R29",
+      "value": "2k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "0cb01704-7796-58bf-921a-b6173c7f1543"
+    },
+    {
+      "reference": "R30",
+      "value": "23.2k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "01d26317-7e05-5d8d-ada9-cf9ed5f377a8"
+    },
+    {
+      "reference": "R31",
+      "value": "10k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "b7ebe800-f8c6-56ae-8209-8f6c5a80f3e2"
+    },
+    {
+      "reference": "R32",
+      "value": "249k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "7009332f-11b5-529d-8bc6-1a0662283ddb"
+    },
+    {
+      "reference": "R33",
+      "value": "32.4k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "ad4d16a8-a03f-57f1-ae09-866e8ae7213d"
+    },
+    {
+      "reference": "R34",
+      "value": "5.23k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "f04ff523-8082-55f9-92be-8fd6fb1420f5"
+    },
+    {
+      "reference": "R35",
+      "value": "30.1k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "30f63cc1-ab52-54d1-8264-57fd0bc4ee85"
+    },
+    {
+      "reference": "C33",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "3bc27d74-bf98-5f37-9e63-e09ea5623978"
+    },
+    {
+      "reference": "R36",
+      "value": "10k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "c936b897-d3aa-5d12-b54e-413223840575"
+    },
+    {
+      "reference": "J9",
+      "value": "CHARGE INHIBIT: short ISET to GND",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x02",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "uuid": "70077873-bbed-574c-9fa0-112c89bd8e47"
+    },
+    {
+      "reference": "U10",
+      "value": "HY2120-CB",
+      "library": "Backup",
+      "symbol": "HY2120-CB",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "uuid": "994c38b8-f8ea-5cc0-878e-3b6fbd34799e"
+    },
+    {
+      "reference": "R37",
+      "value": "330R",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "e95b9a30-2d9f-5818-b1c1-b1eda7969e5b"
+    },
+    {
+      "reference": "R38",
+      "value": "330R",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "85401fc3-7463-54aa-a304-3c133d667bd9"
+    },
+    {
+      "reference": "R39",
+      "value": "2k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "86ce74a3-e695-5697-bf3f-12132a999ab1"
+    },
+    {
+      "reference": "C34",
+      "value": "100n 16V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "89f13f9c-91f8-5014-87a7-7ecfc969b156"
+    },
+    {
+      "reference": "C35",
+      "value": "100n 16V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "36081ce0-24e1-55a5-b922-f1d8fd0f206f"
+    },
+    {
+      "reference": "Q6",
+      "value": "IRLR7843TRPBF",
+      "library": "Transistor_FET",
+      "symbol": "Q_NMOS_GDS",
+      "footprint": "Package_TO_SOT_SMD:TO-252-2",
+      "uuid": "ecd23675-e804-5a14-b57a-9e50db5aba3e"
+    },
+    {
+      "reference": "Q7",
+      "value": "IRLR7843TRPBF",
+      "library": "Transistor_FET",
+      "symbol": "Q_NMOS_GDS",
+      "footprint": "Package_TO_SOT_SMD:TO-252-2",
+      "uuid": "f6a8c3ad-42d9-5247-bd02-04d8a20c97b9"
+    },
+    {
+      "reference": "R40",
+      "value": "50m 1% 1W",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "uuid": "47e3f500-cc22-501a-8a98-776b6dbb87cf"
+    },
+    {
+      "reference": "U11",
+      "value": "HY2213-BB3A",
+      "library": "Backup",
+      "symbol": "HY2213-BB3A",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "uuid": "2f4c1e7f-71e3-57d9-8a28-935e802bc6ef"
+    },
+    {
+      "reference": "R41",
+      "value": "100R",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "36eedbac-fbb5-5d9f-809e-f31ee05451fa"
+    },
+    {
+      "reference": "C36",
+      "value": "100n 10V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "5b23053f-e536-520c-be4e-d91ffafa919e"
+    },
+    {
+      "reference": "Q8",
+      "value": "AO3400A",
+      "library": "Transistor_FET",
+      "symbol": "AO3400A",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "uuid": "faa66890-a64c-5c31-8521-078c303c659c"
+    },
+    {
+      "reference": "R42",
+      "value": "62R 1% 1W",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "uuid": "243ce02a-2f92-5505-aaa2-f7f771d893bf"
+    },
+    {
+      "reference": "U12",
+      "value": "HY2213-BB3A",
+      "library": "Backup",
+      "symbol": "HY2213-BB3A",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "uuid": "b335d711-9145-5282-a522-b3ba14baf426"
+    },
+    {
+      "reference": "R43",
+      "value": "100R",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "f9bab796-41d2-5a3f-8ae1-4360fadb6e3e"
+    },
+    {
+      "reference": "C37",
+      "value": "100n 10V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "9e349646-3438-5c34-a23e-d1e1a77e6e2c"
+    },
+    {
+      "reference": "Q9",
+      "value": "AO3400A",
+      "library": "Transistor_FET",
+      "symbol": "AO3400A",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "uuid": "dc990739-ae34-542c-a149-0143acd792b4"
+    },
+    {
+      "reference": "R44",
+      "value": "62R 1% 1W",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "uuid": "358403bd-38b2-5e5a-9773-2e01b5fd7aab"
+    },
+    {
+      "reference": "#PWRB0",
+      "value": "PWR_FLAG",
+      "library": "power",
+      "symbol": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "76b8efaa-55f4-5467-81c4-dc935b63600f"
+    },
+    {
+      "reference": "#PWRB1",
+      "value": "PWR_FLAG",
+      "library": "power",
+      "symbol": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "7a3ebff2-f1ce-541a-b8ed-6428069b1279"
+    },
+    {
+      "reference": "#PWRB2",
+      "value": "PWR_FLAG",
+      "library": "power",
+      "symbol": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "9d21e3b9-4f16-5f07-85b9-269f46b2d129"
+    },
+    {
+      "reference": "#PWRB3",
+      "value": "PWR_FLAG",
+      "library": "power",
+      "symbol": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "95637a0a-70d2-5963-b253-7b3dd5a93c9c"
+    },
+    {
+      "reference": "#PWRB4",
+      "value": "PWR_FLAG",
+      "library": "power",
+      "symbol": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "37f54c2b-3742-5959-9f0b-f501db306a12"
+    },
+    {
+      "reference": "#PWRB5",
+      "value": "PWR_FLAG",
+      "library": "power",
+      "symbol": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "828ac33b-3b94-5b8e-b706-ba0471dd71be"
+    },
+    {
+      "reference": "#PWRB6",
+      "value": "PWR_FLAG",
+      "library": "power",
+      "symbol": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "a6a78df5-cd4d-5863-ad5d-34570512f99b"
+    },
+    {
+      "reference": "#FLG01",
+      "value": "PWR_FLAG",
+      "library": "power",
+      "symbol": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "594f044a-ef82-5d4a-8562-788046266a46"
+    },
+    {
+      "reference": "#FLG02",
+      "value": "PWR_FLAG",
+      "library": "power",
+      "symbol": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "a7a9337f-adf4-56ba-9aab-0ab9eab5b485"
+    },
+    {
+      "reference": "#FLG03",
+      "value": "PWR_FLAG",
+      "library": "power",
+      "symbol": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "5b84ce28-d530-5aee-9960-d2596dafac37"
+    },
+    {
+      "reference": "#FLG04",
+      "value": "PWR_FLAG",
+      "library": "power",
+      "symbol": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "7919afa8-95d2-55d5-a2f0-c3232bb6c6d5"
+    },
+    {
+      "reference": "U13",
+      "value": "MCP23017-E/SP",
+      "library": "Interface_Expansion",
+      "symbol": "MCP23017_SP",
+      "footprint": "Package_DIP:DIP-28_W7.62mm",
+      "uuid": "60f07414-3d90-58e6-b86c-a7124ececbd5"
+    },
+    {
+      "reference": "U14",
+      "value": "FM24C64B-GTR",
+      "library": "Memory_NVRAM",
+      "symbol": "FM24C64B",
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "uuid": "e9e15496-4899-5d18-974c-960437498cd7"
+    },
+    {
+      "reference": "C38",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "65470186-ec35-5bc1-a7e2-f12a474f739c"
+    },
+    {
+      "reference": "C39",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "aefcd1b2-4998-51ff-914f-cc04bee3c64c"
+    },
+    {
+      "reference": "Y1",
+      "value": "ABLS-16.000MHZ-B4-T",
+      "library": "Device",
+      "symbol": "Crystal",
+      "footprint": "Crystal:Crystal_HC49-4H_Vertical",
+      "uuid": "92cb23f5-5d94-54e5-b718-d66aec110877"
+    },
+    {
+      "reference": "C40",
+      "value": "27p C0G",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "c63535f5-c332-5b59-973b-75b851e2bfc5"
+    },
+    {
+      "reference": "C41",
+      "value": "27p C0G",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "2120774a-5027-59f3-b5fb-53219bdb9017"
+    },
+    {
+      "reference": "SW1",
+      "value": "RESET",
+      "library": "Switch",
+      "symbol": "SW_Push",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "uuid": "edf72fe3-a07e-5832-9d20-e049c589cb73"
+    },
+    {
+      "reference": "R45",
+      "value": "100k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "d0aefd10-caf4-589b-8a51-95b28af65f3b"
+    },
+    {
+      "reference": "R46",
+      "value": "47k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "8e6e9179-4e5c-557b-8726-02fcb3f11d17"
+    },
+    {
+      "reference": "C42",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "88729cb2-8434-5fc1-b3c7-d2b64d3295f6"
+    },
+    {
+      "reference": "R47",
+      "value": "200k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "884fcb0f-c33e-5bcf-8d86-8ae61d42d7be"
+    },
+    {
+      "reference": "R48",
+      "value": "47k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "03d5eb4c-c4c4-5012-b568-ec9da7a5a061"
+    },
+    {
+      "reference": "C43",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "cf6b0333-26de-5ad6-9bb3-f3ea4342871f"
+    },
+    {
+      "reference": "R49",
+      "value": "100k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "a25c3fc7-be43-58c8-b924-ca5d781bb192"
+    },
+    {
+      "reference": "R50",
+      "value": "1k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "7f3a19de-3fa3-587f-a035-8e13094ffec4"
+    },
+    {
+      "reference": "D4",
+      "value": "LTST-C170KGKT",
+      "library": "Device",
+      "symbol": "LED",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "uuid": "5ac3d44b-b4ea-53a6-8c6c-e9ec9251f5c8"
+    },
+    {
+      "reference": "R51",
+      "value": "1k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "1cfa6c91-68fc-5f26-aac5-bd1000585244"
+    },
+    {
+      "reference": "D5",
+      "value": "LTST-C170KRKT",
+      "library": "Device",
+      "symbol": "LED",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "uuid": "7a9cbfc2-30b7-546c-865e-f08d026c528e"
+    },
+    {
+      "reference": "RV1",
+      "value": "3296W-1-103LF 10k",
+      "library": "Device",
+      "symbol": "R_Potentiometer",
+      "footprint": "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical",
+      "uuid": "a502286c-9123-5179-b324-58bb887d9b71"
+    },
+    {
+      "reference": "R52",
+      "value": "100R",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "5b276af5-7577-5eb5-a40f-444f7db5c1a8"
+    },
+    {
+      "reference": "Q10",
+      "value": "AO3400A",
+      "library": "Transistor_FET",
+      "symbol": "AO3400A",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "uuid": "e818581a-045a-564e-b6a0-31bcbabfeedf"
+    },
+    {
+      "reference": "R53",
+      "value": "100k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "e77e3be6-293e-556b-aba4-7f9bd1878c42"
+    },
+    {
+      "reference": "R54",
+      "value": "10k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "eaae74a9-6562-5b28-827c-0cb83264665f"
+    }
+  ]
+}

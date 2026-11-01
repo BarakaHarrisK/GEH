@@ -1,0 +1,14 @@
+Item,Quantity,Selection,Requirements
+GSM,1,SIM800L red breakout (user supplied),5-pin power/UART/reset harness; verify module labels; antenna separate
+LCD,1,"5 V HD44780-compatible 16x2, 16-pin parallel",Backlight must be compatible with current-limited 100 ohm feed; verify pinout
+Keypad,1,"Passive 4x4 matrix, 8 conductors",Rows then columns per connector schedule
+Cells,2,"Matched 3.7 V 2600 mAh 18650, 4.2 V charge chemistry",Authentic manufacturer-documented cells; >=3 A discharge and >=0.6 A charge; <=holder dimensions; user cells need model/rating confirmation
+Pack NTC,1,Semitec 103AT-2,"10 kohm at25 C, B25/85=3435 K; thermally coupled to cells; electrically insulated"
+Controller PSU,1,Mean Well GST40A12-P1J,12 V / 3.34 A isolated adapter; mains cord appropriate to installation
+Service PSU,1,Mean Well GST18A05-P1J,5 V / 3 A isolated adapter; feeds service bus only
+Branch relay,4,Finder 40.61.9.005.0000,5 V DC coil; 16 A AC1 relay; use NO contacts; inductive/motor loads require rating review
+Relay socket,4,Finder 95.05 plus suitable retaining clips,DIN mount; verify aggregate current/ambient derating in Finder 40/95-series catalog
+GSM LDO heat sink,1,"TO-220 compatible, <=20 C/W with mounting hardware",Tab is GND; reserve mechanical clearance; verify regulator temperature under chosen radio duty cycle
+Branch protection,4,"10 A branch protective device, installation-selected","Breaking capacity, trip curve, RCD/RCBO arrangement and conductors set by installation design"
+Enclosure,1,Enclosed segregated distribution assembly,PCB outlines 230x180 mm and 4x90x70 mm; DIN relays/breakers and finger guards require separate space
+Programming,1,5 V AVR ISP programmer,No bootloader assumed; see firmware interface and fuse guidance

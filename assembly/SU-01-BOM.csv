@@ -1,0 +1,29 @@
+Board,References,Qty per board,Qty for system,Value,Manufacturer part number,Footprint,Procurement requirements
+SU-01,"C1,C2,C3,C5,C6",5,20,100n,,Capacitor_SMD:C_0805_2012Metric,100n; voltage >=stated or 25 V if unstated; X7R unless C0G specified; verify effective capacitance under DC bias; match listed case size.
+SU-01,C4,1,4,47u 16V,,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,"47u 16V; radial, 5 mm diameter, 2.0 mm lead pitch; >=105 C, low ESR."
+SU-01,"C7,C8",2,8,27p C0G,,Capacitor_SMD:C_0805_2012Metric,27p C0G; voltage >=stated or 25 V if unstated; X7R unless C0G specified; verify effective capacitance under DC bias; match listed case size.
+SU-01,C9,1,4,10u 16V,,Capacitor_SMD:C_1206_3216Metric,10u 16V; voltage >=stated or 25 V if unstated; X7R unless C0G specified; verify effective capacitance under DC bias; match listed case size.
+SU-01,D1,1,4,SS14-E3/61T,SS14-E3/61T,Diode_SMD:D_SMA,Use exact MPN and package; no unreviewed substitutions
+SU-01,D2,1,4,"BAT54S,215","BAT54S,215",Package_TO_SOT_SMD:SOT-23,Use exact MPN and package; no unreviewed substitutions
+SU-01,D3,1,4,"PESD3V3S1BA,115 (bidirectional)","PESD3V3S1BA,115",Diode_SMD:D_SOD-323,Use exact MPN and package; no unreviewed substitutions
+SU-01,D4,1,4,LTST-C170KGKT,LTST-C170KGKT,LED_SMD:LED_0805_2012Metric,Use exact MPN and package; no unreviewed substitutions
+SU-01,J1,1,4,AVR ISP,,Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical,AVR ISP; standard 2.54 mm header matching listed footprint; pin numbers in connector schedule
+SU-01,J2,1,4,BUS: +5V GND SDA SCL,B4B-XH-A(LF)(SN),Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,JST XH 4-pin; mating XHP-4 with SXH-001T-P0.6 crimp contacts
+SU-01,J3,1,4,ADC test interface,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,ADC test interface; standard 2.54 mm header matching listed footprint; pin numbers in connector schedule
+SU-01,J4,1,4,TO PENDING COIL DRIVER,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,TO PENDING COIL DRIVER; standard 2.54 mm header matching listed footprint; pin numbers in connector schedule
+SU-01,J5,1,4,ADDRESS: strap bit to GND,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,ADDRESS: strap bit to GND; standard 2.54 mm header matching listed footprint; pin numbers in connector schedule
+SU-01,J6,1,4,5 V RELAY COIL ONLY,Phoenix Contact 1715721,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",MKDS 1.5/2-5.08 coil connector; verify exact terminal outline against selected drawing
+SU-01,J8,1,4,I2C THROUGH: 5V GND SDA SCL,B4B-XH-A(LF)(SN),Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,JST XH 4-pin; mating XHP-4 with SXH-001T-P0.6 crimp contacts
+SU-01,J9,1,4,5V UART: RX TX GND,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,5V UART: RX TX GND; standard 2.54 mm header matching listed footprint; pin numbers in connector schedule
+SU-01,Q1,1,4,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,Use exact MPN and package; no unreviewed substitutions
+SU-01,"R1,R2,R3",3,12,10k,,Resistor_SMD:R_0805_2012Metric,10k; 0805 >=0.125 W unless footprint is 2512 (>=1 W); stated 0.1% values require precision thin-film; other resistors 1%.
+SU-01,R10,1,4,1k rail preload,,Resistor_SMD:R_0805_2012Metric,1k rail preload; 0805 >=0.125 W unless footprint is 2512 (>=1 W); stated 0.1% values require precision thin-film; other resistors 1%.
+SU-01,R4,1,4,100R,,Resistor_SMD:R_0805_2012Metric,100R; 0805 >=0.125 W unless footprint is 2512 (>=1 W); stated 0.1% values require precision thin-film; other resistors 1%.
+SU-01,R5,1,4,100k,,Resistor_SMD:R_0805_2012Metric,100k; 0805 >=0.125 W unless footprint is 2512 (>=1 W); stated 0.1% values require precision thin-film; other resistors 1%.
+SU-01,"R6,R7",2,8,10k 0.1%,,Resistor_SMD:R_0805_2012Metric,10k 0.1%; 0805 >=0.125 W unless footprint is 2512 (>=1 W); stated 0.1% values require precision thin-film; other resistors 1%.
+SU-01,R8,1,4,49.9R 0.1%,,Resistor_SMD:R_0805_2012Metric,49.9R 0.1%; 0805 >=0.125 W unless footprint is 2512 (>=1 W); stated 0.1% values require precision thin-film; other resistors 1%.
+SU-01,"R9,R11",2,8,1k,,Resistor_SMD:R_0805_2012Metric,1k; 0805 >=0.125 W unless footprint is 2512 (>=1 W); stated 0.1% values require precision thin-film; other resistors 1%.
+SU-01,SW1,1,4,RESET,,Button_Switch_THT:SW_PUSH_6mm,"6 x 6 mm through-hole normally-open tactile switch, pin layout matches footprint"
+SU-01,T1,1,4,ZMCT103C,ZMCT103C,Transformer_THT:Transformer_Zeming_ZMCT103C,Use exact MPN and package; no unreviewed substitutions
+SU-01,U1,1,4,ATmega328P-P (DIP-28),ATMEGA328P-PU,Package_DIP:DIP-28_W7.62mm,Use exact MPN and package; no unreviewed substitutions
+SU-01,Y1,1,4,ABLS-16.000MHZ-B4-T,ABLS-16.000MHZ-B4-T,Crystal:Crystal_HC49-4H_Vertical,Use exact MPN and package; no unreviewed substitutions

@@ -1,0 +1,317 @@
+{
+  "root_uuid": "ac66e68f-44c8-5dc3-badf-3fd564fb8bda",
+  "parts": [
+    {
+      "reference": "U1",
+      "value": "ATmega328P-P (DIP-28)",
+      "library": "MCU_Microchip_ATmega",
+      "symbol": "ATmega328P-P",
+      "footprint": "Package_DIP:DIP-28_W7.62mm",
+      "uuid": "c2ff8500-364e-5832-93d3-284a8639009a"
+    },
+    {
+      "reference": "R1",
+      "value": "10k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "8456bc55-5bcb-5030-8a66-b3baf1829cdc"
+    },
+    {
+      "reference": "C1",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "d91ce249-1d30-5777-ad8d-8fc5f5dc4778"
+    },
+    {
+      "reference": "C2",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "e8621aee-8677-55c5-a224-8c7c746dcd93"
+    },
+    {
+      "reference": "C3",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "62769bff-298c-582c-88d5-f222c413133c"
+    },
+    {
+      "reference": "J1",
+      "value": "AVR ISP",
+      "library": "Connector_Generic",
+      "symbol": "Conn_02x03_Odd_Even",
+      "footprint": "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical",
+      "uuid": "ed2d96d4-37ad-5c14-ae9f-5a3dc54b69ff"
+    },
+    {
+      "reference": "J2",
+      "value": "BUS: +5V GND SDA SCL",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x04",
+      "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "uuid": "08517623-9c29-5759-a364-13f764ca4f27"
+    },
+    {
+      "reference": "J3",
+      "value": "ADC test interface",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "uuid": "9fc01481-7e7d-5572-9d03-056b686254b2"
+    },
+    {
+      "reference": "J4",
+      "value": "TO PENDING COIL DRIVER",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x02",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "uuid": "99b8373e-76fd-594a-b1e5-0a03ad932b6a"
+    },
+    {
+      "reference": "R2",
+      "value": "10k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "7544d662-8164-5368-8155-dec02bfeebd7"
+    },
+    {
+      "reference": "R3",
+      "value": "10k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "86a712fd-2ba8-56f2-a535-30c88b83543a"
+    },
+    {
+      "reference": "J5",
+      "value": "ADDRESS: strap bit to GND",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "uuid": "db222f6a-5c67-5f27-80ed-566723828d2f"
+    },
+    {
+      "reference": "R6",
+      "value": "10k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "6d979b2c-012e-5efa-9890-dd365f36dfcd"
+    },
+    {
+      "reference": "R7",
+      "value": "10k 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "81daf8cf-9fcf-5e82-bb65-064c36cd5f84"
+    },
+    {
+      "reference": "C4",
+      "value": "47u 16V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+      "uuid": "117cf31e-a3d1-5f95-ac26-a5bbe8bd87d5"
+    },
+    {
+      "reference": "C5",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "00426d1a-39f3-5e76-8977-8ab875f0d8bf"
+    },
+    {
+      "reference": "R8",
+      "value": "49.9R 0.1%",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "8f0c557f-b5ac-56b0-b82a-c14d36a00df5"
+    },
+    {
+      "reference": "R9",
+      "value": "1k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "85976313-ee8d-585b-ba68-b0a85856339f"
+    },
+    {
+      "reference": "C6",
+      "value": "100n",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "7693fbb1-9bc4-589d-8305-5d847fea0dea"
+    },
+    {
+      "reference": "R4",
+      "value": "100R",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "d84cfccc-e757-59d4-89cd-bfabe7d6a25a"
+    },
+    {
+      "reference": "R5",
+      "value": "100k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "26c5f04e-456f-54d9-a890-086dcc59f26f"
+    },
+    {
+      "reference": "Q1",
+      "value": "AO3400A",
+      "library": "Transistor_FET",
+      "symbol": "AO3400A",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "uuid": "ebc85360-3034-54c6-a8ed-5db866eb3bfd"
+    },
+    {
+      "reference": "D1",
+      "value": "SS14-E3/61T",
+      "library": "Device",
+      "symbol": "D_Schottky",
+      "footprint": "Diode_SMD:D_SMA",
+      "uuid": "015f1d44-58eb-5e3f-aa3b-24b98399d33d"
+    },
+    {
+      "reference": "J6",
+      "value": "5 V RELAY COIL ONLY",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x02",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "uuid": "c1bad45a-8472-5446-9bd6-cd81ba2d5da3"
+    },
+    {
+      "reference": "T1",
+      "value": "ZMCT103C",
+      "library": "Transformer",
+      "symbol": "ZMCT103C",
+      "footprint": "Transformer_THT:Transformer_Zeming_ZMCT103C",
+      "uuid": "98e7e7c7-1db4-5948-9b39-d63fa348f8c6"
+    },
+    {
+      "reference": "Y1",
+      "value": "ABLS-16.000MHZ-B4-T",
+      "library": "Device",
+      "symbol": "Crystal",
+      "footprint": "Crystal:Crystal_HC49-4H_Vertical",
+      "uuid": "9c8f9b9e-2f16-5a2f-987a-29fefc0e6f12"
+    },
+    {
+      "reference": "C7",
+      "value": "27p C0G",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "c26e41f6-b3ae-5361-9e7f-486a800aaff3"
+    },
+    {
+      "reference": "C8",
+      "value": "27p C0G",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "651bbe67-c352-52fd-87f6-fd75ae383b59"
+    },
+    {
+      "reference": "C9",
+      "value": "10u 16V",
+      "library": "Device",
+      "symbol": "C",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "uuid": "0839d9a3-daac-5064-83ff-805d5871c8e9"
+    },
+    {
+      "reference": "D2",
+      "value": "BAT54S,215",
+      "library": "Diode",
+      "symbol": "BAT54S",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "uuid": "f0f810be-d5db-56e9-99a2-ca4cc29b38c5"
+    },
+    {
+      "reference": "D3",
+      "value": "PESD3V3S1BA,115 (bidirectional)",
+      "library": "Device",
+      "symbol": "D_TVS",
+      "footprint": "Diode_SMD:D_SOD-323",
+      "uuid": "2ad9025b-e56e-55e7-a8f5-bde7f1bea8a8"
+    },
+    {
+      "reference": "R10",
+      "value": "1k rail preload",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "2519f24f-107a-5eea-8208-02c4a40f27a7"
+    },
+    {
+      "reference": "R11",
+      "value": "1k",
+      "library": "Device",
+      "symbol": "R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "uuid": "83105f81-2c8b-570e-9869-f4c6bafddf82"
+    },
+    {
+      "reference": "D4",
+      "value": "LTST-C170KGKT",
+      "library": "Device",
+      "symbol": "LED",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "uuid": "78f375a1-5858-5636-9e76-7f0716a240b3"
+    },
+    {
+      "reference": "SW1",
+      "value": "RESET",
+      "library": "Switch",
+      "symbol": "SW_Push",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "uuid": "2096250e-84f4-574a-a3fc-f8fce9fec17e"
+    },
+    {
+      "reference": "J8",
+      "value": "I2C THROUGH: 5V GND SDA SCL",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x04",
+      "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "uuid": "25e62f26-04aa-5fd0-a021-7b204c0aec8e"
+    },
+    {
+      "reference": "J9",
+      "value": "5V UART: RX TX GND",
+      "library": "Connector_Generic",
+      "symbol": "Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "uuid": "0e3136ed-bf70-5a29-909b-cf17105c7cd8"
+    },
+    {
+      "reference": "#PWR0",
+      "value": "PWR_FLAG",
+      "library": "power",
+      "symbol": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "bc70619e-5c4d-5ade-b8c3-a5b61dfcd873"
+    },
+    {
+      "reference": "#PWR1",
+      "value": "PWR_FLAG",
+      "library": "power",
+      "symbol": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "2dc739f7-a732-58d0-9db0-af8e1015020e"
+    }
+  ]
+}

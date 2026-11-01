@@ -1,0 +1,38 @@
+Reference,Value,Footprint,X mm,Y mm
+U1,ATmega328P-P (DIP-28),Package_DIP:DIP-28_W7.62mm,32,15
+R1,10k,Resistor_SMD:R_0805_2012Metric,43,12
+C1,100n,Capacitor_SMD:C_0805_2012Metric,28,30
+C2,100n,Capacitor_SMD:C_0805_2012Metric,44,35
+C3,100n,Capacitor_SMD:C_0805_2012Metric,44,31
+J1,AVR ISP,Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical,16,24
+J2,BUS: +5V GND SDA SCL,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,10,12
+J3,ADC test interface,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,55,12
+J4,TO PENDING COIL DRIVER,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,55,52
+R2,10k,Resistor_SMD:R_0805_2012Metric,18,47
+R3,10k,Resistor_SMD:R_0805_2012Metric,18,54
+J5,ADDRESS: strap bit to GND,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,10,47
+R6,10k 0.1%,Resistor_SMD:R_0805_2012Metric,55,26
+R7,10k 0.1%,Resistor_SMD:R_0805_2012Metric,55,32
+C4,47u 16V,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,55,39
+C5,100n,Capacitor_SMD:C_0805_2012Metric,61,24
+R8,49.9R 0.1%,Resistor_SMD:R_0805_2012Metric,68,24
+R9,1k,Resistor_SMD:R_0805_2012Metric,62,30
+C6,100n,Capacitor_SMD:C_0805_2012Metric,68,30
+R4,100R,Resistor_SMD:R_0805_2012Metric,61,44
+R5,100k,Resistor_SMD:R_0805_2012Metric,67,43
+Q1,AO3400A,Package_TO_SOT_SMD:SOT-23,70,49
+D1,SS14-E3/61T,Diode_SMD:D_SMA,77,42
+J6,5 V RELAY COIL ONLY,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",80,50
+T1,ZMCT103C,Transformer_THT:Transformer_Zeming_ZMCT103C,65,17
+Y1,ABLS-16.000MHZ-B4-T,Crystal:Crystal_HC49-4H_Vertical,19,39
+C7,27p C0G,Capacitor_SMD:C_0805_2012Metric,28,34
+C8,27p C0G,Capacitor_SMD:C_0805_2012Metric,28,43
+C9,10u 16V,Capacitor_SMD:C_1206_3216Metric,25,17
+D2,"BAT54S,215",Package_TO_SOT_SMD:SOT-23,70,35
+D3,"PESD3V3S1BA,115 (bidirectional)",Diode_SMD:D_SOD-323,74,25
+R10,1k rail preload,Resistor_SMD:R_0805_2012Metric,23,12
+R11,1k,Resistor_SMD:R_0805_2012Metric,47,45
+D4,LTST-C170KGKT,LED_SMD:LED_0805_2012Metric,47,50
+SW1,RESET,Button_Switch_THT:SW_PUSH_6mm,43,54
+J8,I2C THROUGH: 5V GND SDA SCL,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,70,7
+J9,5V UART: RX TX GND,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,24,51
